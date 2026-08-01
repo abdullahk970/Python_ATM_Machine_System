@@ -70,9 +70,9 @@ It is designed as a **learning project** to demonstrate progression from basic P
 ```text id="atm-structure"
 ATM-System/
 │
-├── simple_atm.py        # Basic ATM logic (single user)
-├── multi_user_atm.py    # Dictionary-based multi-user ATM
-├── oop_atm.py           # Object-Oriented ATM system
+├── Question1.py        # Basic ATM logic (single user)
+├── Question2.py    # Dictionary-based multi-user ATM
+├── Question3.py           # Object-Oriented ATM system
 └── README.md
 ```
 
