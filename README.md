@@ -1,77 +1,91 @@
-# 🏧 Python ATM Machine System
+🏧 Python ATM Machine System
 
-> A console-based ATM simulation in Python, built in three progressive stages — from basic procedural logic to a multi-user system to a full Object-Oriented design.
+A console-based ATM simulation developed in Python, progressing from basic procedural logic to multi-user account handling and object-oriented design.
 
-![Python](https://img.shields.io/badge/Python-3.x-blue) ![License](https://img.shields.io/badge/License-MIT-yellow)
+📌 Overview
 
+This project explores ATM functionality through multiple implementations with increasing programming complexity.
 
-## 🚀 Overview
+The repository demonstrates the progression from simple procedural programming to object-oriented programming concepts.
 
-This project simulates real-world banking operations through three implementations of increasing complexity, showing progression from basic scripting to OOP design:
-
-1. **Simple ATM** — single-user, procedural logic
-2. **Multi-User ATM** — dictionary-based account storage
-3. **OOP ATM** — class-based design with encapsulation
-
-## ✨ Features
-
-- PIN-based authentication with a 3-attempt lockout
-- Balance inquiry, deposit, and withdrawal
-- Multi-user account support (dictionary-based)
-- Class-based encapsulation in the OOP version
-
-## 🏗️ Tech Stack
-
-- Python 3 (standard library only — no external dependencies)
-- Object-Oriented Programming (classes, encapsulation)
-- Dictionaries for multi-user account storage
-
-## 📂 Project Structure
-
-```
+Implementations
+Basic ATM — single-user procedural implementation
+Multi-User ATM — dictionary-based account management
+OOP ATM — class-based design and encapsulation
+✨ Features
+🔐 PIN-based authentication
+🚫 Three-attempt login lockout
+💰 Balance inquiry
+➕ Deposit operations
+➖ Withdrawal operations
+👥 Multi-user account handling
+🧩 Object-oriented implementation
+📦 Basic data modeling using Python dictionaries
+🛠️ Concepts Demonstrated
+Python control flow
+Functions
+Conditional logic
+Loops
+Dictionaries
+Object-Oriented Programming
+Classes and encapsulation
+Basic input validation
+📂 Project Structure
 Python_ATM_Machine_System/
 │
-├── Question1        # Basic single-user ATM logic
-├── Question2   # Dictionary-based multi-user ATM
-├── Question           # Object-oriented ATM system
+├── Question1/
+│   └── Basic ATM implementation
+│
+├── Question2/
+│   └── Multi-user ATM implementation
+│
+├── Question3/
+│   └── Object-oriented ATM implementation
+│
 └── README.md
-```
+▶️ Usage
 
-## ⚙️ Installation & Usage
+The repository contains multiple implementations in separate folders.
 
-```bash
-git clone https://github.com/abdullahk970/Python_ATM_Machine_System.git
-cd Python_ATM_Machine_System
+Open the desired implementation folder and run the corresponding Python file with:
 
-# Run any version:
-python simple_atm.py
-python multi_user_atm.py
-python oop_atm.py
-```
+python <filename>.py
 
-No external dependencies required.
+No external Python packages are required.
 
-## 🧱 OOP Version — Class Structure
+🧠 OOP Implementation
 
-- `__init__` — initializes PIN, balance, and login attempts
-- `login()` — validates PIN, locks account after 3 failed attempts
-- `show_menu()` — displays available operations
-- `check_balance()`, `deposit()`, `withdraw()` — core banking operations
+The object-oriented version demonstrates separation of ATM behavior into class-based functionality such as:
 
-## 📈 What This Project Demonstrates
+PIN and balance initialization
+Login validation
+Login-attempt handling
+Menu interaction
+Balance checking
+Deposits
+Withdrawals
+📚 Learning Outcomes
 
-- Python control flow (loops, conditionals)
-- Dictionary-based data modeling
-- Function-based modular design
-- Object-Oriented Programming fundamentals (encapsulation, class design)
+This project demonstrates progression in Python programming:
 
-## 🔮 Possible Future Improvements
+Procedural Programming
+        ↓
+Multi-User Data Handling
+        ↓
+Object-Oriented Programming
 
-- Database integration (SQLite)
-- Transaction history tracking
-- Password hashing for stored PINs
-- GUI version (Tkinter)
+It was developed as a learning project to practice Python programming fundamentals and object-oriented concepts.
 
-## 👨‍💻 Author
+🔮 Possible Improvements
+Persistent database storage
+Transaction history
+Secure PIN hashing
+Improved input validation
+Graphical user interface
+Automated tests
+👨‍💻 Author
 
-**Muhammad Abdullah Khan**
+Muhammad Abdullah Khan
+
+GitHub: abdullahk970
+LinkedIn: Muhammad Abdullah Khan
