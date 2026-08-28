@@ -1,36 +1,55 @@
-🏧 Python ATM Machine System
+# 🏧 Python ATM Machine System
 
-A console-based ATM simulation developed in Python, progressing from basic procedural logic to multi-user account handling and object-oriented design.
+> A console-based ATM simulation developed in Python, progressing from basic procedural programming to multi-user account handling and object-oriented design.
 
-📌 Overview
+![Python](https://img.shields.io/badge/Python-3.x-blue)
 
-This project explores ATM functionality through multiple implementations with increasing programming complexity.
+---
 
-The repository demonstrates the progression from simple procedural programming to object-oriented programming concepts.
+## 📌 Overview
 
-Implementations
-Basic ATM — single-user procedural implementation
-Multi-User ATM — dictionary-based account management
-OOP ATM — class-based design and encapsulation
-✨ Features
-🔐 PIN-based authentication
-🚫 Three-attempt login lockout
-💰 Balance inquiry
-➕ Deposit operations
-➖ Withdrawal operations
-👥 Multi-user account handling
-🧩 Object-oriented implementation
-📦 Basic data modeling using Python dictionaries
-🛠️ Concepts Demonstrated
-Python control flow
-Functions
-Conditional logic
-Loops
-Dictionaries
-Object-Oriented Programming
-Classes and encapsulation
-Basic input validation
-📂 Project Structure
+This project explores ATM functionality through multiple Python implementations with increasing programming complexity.
+
+The repository demonstrates a progression from basic procedural programming to object-oriented programming concepts.
+
+### Implementations
+
+- **Basic ATM** — Single-user procedural implementation
+- **Multi-User ATM** — Dictionary-based account management
+- **OOP ATM** — Class-based implementation with encapsulation
+
+---
+
+## ✨ Features
+
+- 🔐 PIN-based authentication
+- 🚫 Three-attempt login lockout
+- 💰 Balance inquiry
+- ➕ Deposit operations
+- ➖ Withdrawal operations
+- 👥 Multi-user account handling
+- 🧩 Object-oriented implementation
+- 📦 Dictionary-based account data
+
+---
+
+## 🛠️ Concepts Demonstrated
+
+- Python control flow
+- Functions
+- Conditional statements
+- Loops
+- Dictionaries
+- Object-Oriented Programming
+- Classes
+- Encapsulation
+- Basic input validation
+
+---
+
+## 📂 Project Structure
+
+```
 Python_ATM_Machine_System/
 │
 ├── Question1/
@@ -43,49 +62,56 @@ Python_ATM_Machine_System/
 │   └── Object-oriented ATM implementation
 │
 └── README.md
-▶️ Usage
+```
 
-The repository contains multiple implementations in separate folders.
+---
 
-Open the desired implementation folder and run the corresponding Python file with:
+## ▶️ How to Run
 
+Open the implementation you want to explore and run its Python file:
+
+```
 python <filename>.py
+```
 
 No external Python packages are required.
 
-🧠 OOP Implementation
+---
 
-The object-oriented version demonstrates separation of ATM behavior into class-based functionality such as:
+## 🧠 Learning Progression
 
-PIN and balance initialization
-Login validation
-Login-attempt handling
-Menu interaction
-Balance checking
-Deposits
-Withdrawals
-📚 Learning Outcomes
-
-This project demonstrates progression in Python programming:
-
+```
 Procedural Programming
         ↓
 Multi-User Data Handling
         ↓
 Object-Oriented Programming
+```
 
-It was developed as a learning project to practice Python programming fundamentals and object-oriented concepts.
+The project was created to practice Python programming fundamentals and gradually apply object-oriented concepts.
 
-🔮 Possible Improvements
-Persistent database storage
-Transaction history
-Secure PIN hashing
-Improved input validation
-Graphical user interface
-Automated tests
-👨‍💻 Author
+---
 
-Muhammad Abdullah Khan
+## 🔮 Possible Improvements
 
-GitHub: abdullahk970
-LinkedIn: Muhammad Abdullah Khan
+- Persistent database storage
+- Transaction history
+- Secure PIN hashing
+- Improved input validation
+- Graphical user interface
+- Automated tests
+
+---
+
+## 👨‍💻 Author
+
+**Muhammad Abdullah Khan**
+
+- GitHub: [abdullahk970](https://github.com/abdullahk970)
+- LinkedIn: [Muhammad Abdullah Khan](https://www.linkedin.com/in/muhammad-abdullah-khan-9b0980316?utm_source=share_via&utm_content=profile&utm_medium=member_android)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
